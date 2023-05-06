@@ -1,12 +1,13 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+1st commit
+Setting up basic FLask app usng Flas-SQLAlchemy package
+1. install 2 python packages
+   1. pip3 install 'Flask-SQLAlchemy<3' psycopg2 sqlalchemy==1.446
+   2. ensure env.py is in .gotignore, and setup with 6 Env Variables wihc will be siued to store sensitive data
+   3. PORT is 5000 for flask apps
+   4. taskmgr/__init__. to initialise our app & use import flas and the env package
+   5. creat routes.py  and base.html run.py
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
-
-## Codeanywhere Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
